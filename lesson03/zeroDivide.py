@@ -1,9 +1,9 @@
 #--- ある母数を42で割り、その商を返却する関数 ---
 def spam(divide_by):
-    #try: # try以降に発生した例外は
+    try: # try以降に発生した例外は
         return 42 / divide_by
-    #except ZeroDivisionError: # exceptで指定された例外で拾われる
-    #    print('ゼロ除算が発生しました。\n不正な引数です。')
+    except ZeroDivisionError: # exceptで指定された例外で拾われる
+        print('ゼロ除算が発生しました。\n不正な引数です。')
     #return 暗黙のreturn
 
 
